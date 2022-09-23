@@ -1,0 +1,118 @@
+@charset "utf-8";
+*
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
+body
+{
+	background-color: #FC8334 ;
+	background-attachment: fixed;
+	font-family: "Open sans";
+}
+header h1
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header h1 img
+{
+	width: 90%;
+	height: 300px;
+	object-fit: cover;
+}
+#barra
+{
+	font-size: 14px;
+	width: 90%;
+	margin: auto;
+	background-color: #F21919;
+	color: white;
+}
+#barra ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#menu > li
+{
+	position: relative;
+	display: inline-block;
+}
+#menu > li > a
+{
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding: 11px 16px;
+}
+#menu li a:hover
+{
+	background-color: orangered;
+	color: white;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+.submenu
+{
+	position: absolute;
+	width: 120%;
+	background-color: #095E94;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a
+{
+	display: block;
+	padding: 11px;
+	color: white;
+	text-decoration: none;
+}
+#menu li:hover .submenu
+{
+	visibility: visible;
+	opacity: 1;
+}
+#pagina_activa
+{
+	background-color: #F21919;
+	font-style: bold;
+}
+h2, h3
+{
+	text-align: center;
+}
+section
+{
+	background-color: #294FDB;
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+#icono
+{
+	float: left;
+	width: 150px;
+	height: 200px;
+	object-fit: cover;
+}
+article
+{
+	background-color: #94EEDB;
+	width: 96%;
+	margin: 15px auto;
+	padding: 5px;
+	overflow: hidden;
+}
+footer
+{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
